@@ -31,6 +31,7 @@ aside {
     background-color: #c8d6e5;
     margin-top: 1%;
     border-radius: 10px;
+    padding: 2%;
 }
 .sections {
     background-color: #f2f2f2;
@@ -49,6 +50,28 @@ footer {
 }
 .experience-item {
     border-left: 10px solid #10ac84;
-    border-radius: 5px;
     padding-left: 10px;
+}
+.aside-item {
+    display: flex;
+    align-items: center;
+}
+.contact-img {
+    margin-right: 3%;
+}
+.education-item {
+    text-align: left;
+}
+#link-text {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+#rss-icon {
+    width: 10%;
 }
