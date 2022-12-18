@@ -1,6 +1,54 @@
 body {
-    background-color: #273c75;
+    background-color: white;
     align-items: center;
     align-content: center;
     text-align: center;
+    align-self: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: #2f3640;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    color: black;
+    margin-bottom: 1%;
+}
+.main-content {
+    box-sizing: border-box;
+    width: 60%;
+    margin-right: 1%;
+}
+aside {
+    box-sizing: border-box;
+    width: 40%;
+    background-color: #c8d6e5;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.sections {
+    background-color: #f2f2f2;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+.section-text {
+    text-align: left;
+    font-size: 120%;
+}
+footer {
+    border-radius: 10px;
+    background-color: #2f3640;
+    padding: 1%;
+}
+.experience-item {
+    border-left: 10px solid #10ac84;
+    border-radius: 5px;
+    padding-left: 10px;
 }
